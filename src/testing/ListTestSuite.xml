@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ListTestSuite" parallel="none">
+  <test name="ListTestSuite">
+    <classes>
+      <class name="testing.OpenWebsite"/>
+      <class name="testing.Login"/>
+      <class name="testing.AddToSavedList"/>
+      <class name="testing.AddToCustomizedList"/>
+      <class name="testing.RemoveFromCustomizedList"/>
+      <class name="testing.RemoveFromSavedList"/>
+      <class name="testing.UndoRemove"/>
+    </classes>
+  </test> <!-- ListTestSuite -->
+</suite> <!-- ListTestSuite -->

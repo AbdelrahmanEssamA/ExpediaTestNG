@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="17" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-25T14:45:20Z" name="ListTestSuite" finished-at="2020-04-25T14:49:57Z" duration-ms="277841">
+    <groups>
+    </groups>
+    <test started-at="2020-04-25T14:45:20Z" name="ListTestSuite" finished-at="2020-04-25T14:49:57Z" duration-ms="277841">
+      <class name="testing.RemoveFromCustomizedList">
+        <test-method signature="TestRemoveFromCustomizedList()[pri:3, instance:testing.RemoveFromCustomizedList@7f9fcf7f]" started-at="2020-04-25T14:49:43Z" name="TestRemoveFromCustomizedList" finished-at="2020-04-25T14:49:46Z" duration-ms="3157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRemoveFromCustomizedList -->
+      </class> <!-- testing.RemoveFromCustomizedList -->
+      <class name="testing.OpenWebsite">
+        <test-method is-config="true" signature="testOpenURL()[pri:0, instance:testing.OpenWebsite@448ff1a8]" started-at="2020-04-25T14:45:09Z" name="testOpenURL" finished-at="2020-04-25T14:45:20Z" duration-ms="10451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenURL -->
+        <test-method is-config="true" signature="testCloseBrowser()[pri:0, instance:testing.OpenWebsite@448ff1a8]" started-at="2020-04-25T14:49:58Z" name="testCloseBrowser" finished-at="2020-04-25T14:50:00Z" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCloseBrowser -->
+      </class> <!-- testing.OpenWebsite -->
+      <class name="testing.Login">
+        <test-method is-config="true" signature="TestLogin()[pri:0, instance:testing.Login@1a38c59b]" started-at="2020-04-25T14:45:20Z" name="TestLogin" finished-at="2020-04-25T14:47:55Z" duration-ms="155656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+      </class> <!-- testing.Login -->
+      <class name="testing.AddToSavedList">
+        <test-method signature="TestAddToSavedList()[pri:1, instance:testing.AddToSavedList@7f77e91b]" started-at="2020-04-25T14:47:55Z" name="TestAddToSavedList" finished-at="2020-04-25T14:49:16Z" duration-ms="80361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddToSavedList -->
+      </class> <!-- testing.AddToSavedList -->
+      <class name="testing.AddToCustomizedList">
+        <test-method is-config="true" signature="BeforeAddToCustomizedList()[pri:0, instance:testing.AddToCustomizedList@44a664f2]" started-at="2020-04-25T14:49:16Z" name="BeforeAddToCustomizedList" finished-at="2020-04-25T14:49:24Z" duration-ms="8734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeAddToCustomizedList -->
+        <test-method signature="TestAddToCustomizedList()[pri:2, instance:testing.AddToCustomizedList@44a664f2]" started-at="2020-04-25T14:49:24Z" name="TestAddToCustomizedList" finished-at="2020-04-25T14:49:43Z" duration-ms="18389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddToCustomizedList -->
+      </class> <!-- testing.AddToCustomizedList -->
+      <class name="testing.RemoveFromSavedList">
+        <test-method signature="TestRemoveFromSavedList()[pri:4, instance:testing.RemoveFromSavedList@2357d90a]" started-at="2020-04-25T14:49:46Z" name="TestRemoveFromSavedList" finished-at="2020-04-25T14:49:51Z" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRemoveFromSavedList -->
+      </class> <!-- testing.RemoveFromSavedList -->
+      <class name="testing.UndoRemove">
+        <test-method signature="TestUndoRemove()[pri:5, instance:testing.UndoRemove@6328d34a]" started-at="2020-04-25T14:49:51Z" name="TestUndoRemove" finished-at="2020-04-25T14:49:57Z" duration-ms="6224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUndoRemove -->
+      </class> <!-- testing.UndoRemove -->
+    </test> <!-- ListTestSuite -->
+  </suite> <!-- ListTestSuite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ListTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ListTestSuite(failed)">
+    <classes>
+      <class name="testing.RemoveFromCustomizedList">
+        <methods>
+          <include name="TestRemoveFromCustomizedList"/>
+          <include name="testCloseBrowser"/>
+          <include name="testOpenURL"/>
+        </methods>
+      </class> <!-- testing.RemoveFromCustomizedList -->
+    </classes>
+  </test> <!-- ListTestSuite(failed) -->
+</suite> <!-- Failed suite [ListTestSuite] -->
